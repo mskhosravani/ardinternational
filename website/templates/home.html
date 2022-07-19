@@ -37,7 +37,7 @@
       <div class="container-fluid">
         <nav class="navbar navbar-expand-lg custom_nav-container ">
           <a class="navbar-brand" href="index.html">
-            <img src="{% static 'website/images/logo.png' %}" alt="">
+            <img src="{% static 'website/images/logo.JPG' %}" alt="">
             <span>
               ARD INTERNATIONAL
             </span>
@@ -54,30 +54,30 @@
                   <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link" href="service.html">service </a>
+                  <a class="nav-link" href="#ourservice">service </a>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link" href="pet.html">Pet's gallery </a>
+                  <a class="nav-link" href="#ourabout">About us </a>
                 </li>
-                <li class="nav-item">
+              <!--   <li class="nav-item">
                   <a class="nav-link" href="clinic.html"> clinic</a>
-                </li>
+                </li> -->
                 <li class="nav-item">
-                  <a class="nav-link" href="contact.html">Contact us</a>
+                  <a class="nav-link" href="#ourcontact">Contact us</a>
                 </li>
-                <li class="nav-item">
+                <!-- <li class="nav-item">
                   <a class="nav-link" href="buy.html"> Buy now </a>
-                </li>
+                </li> -->
               </ul>
               <form class="form-inline my-2 my-lg-0 ml-0 ml-lg-4 mb-3 mb-lg-0">
                 <button class="btn  my-2 my-sm-0 nav_search-btn" type="submit"></button>
               </form>
             </div>
-            <div class="quote_btn-container  d-flex justify-content-center">
+<!--             <div class="quote_btn-container  d-flex justify-content-center">
               <a href="">
                 Call: +01 1234567890
               </a>
-            </div>
+            </div> -->
           </div>
         </nav>
       </div>
@@ -86,12 +86,12 @@
     <!-- slider section -->
     <section class=" slider_section position-relative">
       <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
-        <ol class="carousel-indicators">
+      <!--   <ol class="carousel-indicators">
           <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
-          <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
-          <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
-          <li data-target="#carouselExampleIndicators" data-slide-to="3"></li>
-        </ol>
+          <li data-target="#carouselExampleIndicators" data-slide-to="1" class="active"></li>
+          <li data-target="#carouselExampleIndicators" data-slide-to="2" class="active"></li>
+          <li data-target="#carouselExampleIndicators" data-slide-to="3" class="active"></li>
+        </ol> -->
         <div class="carousel-inner">
           <div class="carousel-item active">
             <div class="container-fluid">
@@ -99,9 +99,9 @@
                 <div class="col-md-4 offset-md-2">
                   <div class="slider_detail-box">
                     <h1>
-                      Professional
+                      Welcome to 
                       <span>
-                        Care Your Pet
+                        ARD International 
                       </span>
                     </h1>
                     <p>
@@ -120,9 +120,9 @@
                   </div>
                 </div>
                 <div class="col-md-6">
-                  <div class="slider_img-box">
+                  <!-- <div class="slider_img-box">
                     <img src="{% static 'website/images/slider-img.png' %}" alt="">
-                  </div>
+                  </div> -->
                 </div>
               </div>
             </div>
@@ -155,7 +155,7 @@
                 </div>
                 <div class="col-md-6">
                   <div class="slider_img-box">
-                    <img src="{% static 'website/images/slider-img.png' %}" alt="">
+                    <img src="{% static 'website/images/slider-img1.png' %}" alt="">
                   </div>
                 </div>
               </div>
@@ -238,26 +238,36 @@
 
   <!-- about section -->
 
-  <section class="about_section layout_padding">
+  <section class="about_section layout_padding" id="ourabout">
     <div class="container">
       <div class="row">
         <div class="col-md-6">
+          <br>
+          <br>
+          <br>
+          <br>
           <div class="img-box">
-            <img src="{% static 'website/images/about.png' %}" alt="">
+            <img src="{% static 'website/images/about.PNG' %}" alt="">
           </div>
         </div>
         <div class="col-md-6">
           <div class="detail-box">
             <h2 class="custom_heading">
-              About Our Pets
+              <br>
+              <br>
+              About Our 
               <span>
-                Clinic
+                Company
               </span>
             </h2>
             <p>
-              Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the
-              industry's standard dummy text ever since theLorem Ipsum is simply dummy text of the printing and
-              typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the
+Our company was established in 2018 in Sultanate of Oman and since then has been a leader in the field of General Trading and Agriculture services. In 2022, the Board of Directors decided to open another branch in Canada to extend our services further and promoting the company’s goals.
+
+Ard International trade group as is the leading importer and supplier of various prestigious & quality products from Europe & Asia & America & Canada to Middle east .
+
+We have established longer and closer working relationships with our clients and suppliers. we provide wide range of services and products in field of Agriculture services such as grains, Irrigation equipment, Chemical Fertilizers, Seeds to our valued customers around the world.
+
+our mission is Honesty in Policy and Our primary focus and goal is to ensure customer satisfaction, which we achieve through delivery of highest quality service and prompt customer management.
             </p>
             <div>
               <a href="">
@@ -271,7 +281,7 @@
   </section>
 
   <!-- service section -->
-  <section class="service_section layout_padding">
+  <section class="service_section layout_padding" id="ourservice">
     <div class="container-fluid">
       <div class="row">
         <div class="col-md-6 offset-md-2">
@@ -286,7 +296,7 @@
                 </div>
                 <div class="detail_box">
                   <h6>
-                    Pet Care
+                    Service One
                   </h6>
                   <p>
                     onsectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
@@ -300,7 +310,7 @@
                 </div>
                 <div class="detail_box">
                   <h6>
-                    Pet Hotel
+                    Service Two 
                   </h6>
                   <p>
                     onsectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
@@ -314,7 +324,7 @@
                 </div>
                 <div class="detail_box">
                   <h6>
-                    Emergency
+                    Service Three
                   </h6>
                   <p>
                     onsectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
@@ -331,7 +341,7 @@
           </div>
         </div>
         <div class="col-md-4">
-          <img src="{% static 'website/images/tool.png' %}" alt="" class="w-100">
+          <img src="{% static 'website/images/tool.JPG' %}" alt="" class="w-100">
         </div>
       </div>
     </div>
@@ -342,7 +352,7 @@
 
 
   <!-- gallery section -->
-  <section class="gallery-section layout_padding">
+<!--   <section class="gallery-section layout_padding">
     <div class="container">
       <h2>
         Our Gallery
@@ -365,7 +375,7 @@
         <img src="{% static 'website/images/g-5.png' %}" alt="">
       </div>
     </div>
-  </section>
+  </section> -->
 
 
 
@@ -373,7 +383,7 @@
 
   <!-- buy section -->
 
-  <section class="buy_section layout_padding">
+<!--   <section class="buy_section layout_padding">
     <div class="container">
       <h2>
         You Can Buy Pet From Our Clinic
@@ -388,12 +398,12 @@
         </a>
       </div>
     </div>
-  </section>
+  </section> -->
 
   <!-- end buy section -->
 
   <!-- client section -->
-  <section class="client_section layout_padding-bottom">
+<!--   <section class="client_section layout_padding-bottom">
     <div class="container">
       <h2 class="custom_heading text-center">
         What Say Our
@@ -487,23 +497,23 @@
 
     </div>
 
-  </section>
+  </section> -->
   <!-- end client section -->
 
   <!-- map section -->
 
-  <section class="map_section">
+  <section class="map_section" id="ourcontact">
     <div id="map" class="h-100 w-100 ">
     </div>
 
     <div class="form_container ">
       <div class="row">
-        <div class="col-md-8 col-sm-10 offset-md-4">
+        <div class="col-md-8 col-sm-10 offset-md-8">
           <form action="{% url 'home' %}" method="post">
             {% csrf_token %}
             <div class="text-center">
               <h3>
-                Contact Us - {{ message_name }}
+                Contact Us 
               </h3>
             </div>
             <div>
@@ -544,7 +554,7 @@
             </div>
             <div class="detail-box">
               <p>
-                Location
+                REGINA
               </p>
             </div>
           </div>
@@ -556,7 +566,7 @@
             </div>
             <div class="detail-box">
               <p>
-                +02 1234567890
+                +01 6393848027
               </p>
             </div>
           </div>
@@ -568,7 +578,7 @@
             </div>
             <div class="detail-box">
               <p>
-                demo@gmail.com
+                ard.international.corp@gmail.com
               </p>
             </div>
           </div>
@@ -580,12 +590,12 @@
   <!-- end info_section -->
 
   <!-- footer section -->
-  <section class="container-fluid footer_section">
+<!--   <section class="container-fluid footer_section">
     <p>
       &copy; 2019 All Rights Reserved By
       <a href="https://html.design/">Free Html Templates</a>
     </p>
-  </section>
+  </section> -->
   <!-- footer section -->
 
   <script type="text/javascript" src="js/jquery-3.4.1.min.js"></script>
@@ -616,8 +626,8 @@
   </script>
   <!-- google map js -->
 
-  <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyA8eaHt9Dh5H57Zh0xVTqxVdBFCvFMqFjQ&callback=initMap">
-  </script>
+  <!-- <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyA8eaHt9Dh5H57Zh0xVTqxVdBFCvFMqFjQ&callback=initMap">
+  </script> -->
   <!-- end google map js -->
 </body>
 </body>

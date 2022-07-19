@@ -47,7 +47,7 @@ body {
   position: absolute;
   width: 100%;
   height: 15px;
-  background-color: #023b48;
+  background-color: #3e5a78;
 }
 
 .sub_page .hero_area {
@@ -166,7 +166,7 @@ a:focus {
   background-image: url(../images/hero.jpg);
   padding: 6% 0;
   background-size: cover;
-  background-repeat: no-repeat;
+  /*service_section */
 }
 
 .slider_section .row {
@@ -292,7 +292,7 @@ a:focus {
   width: 110px;
   height: 110px;
   border-radius: 100%;
-  background-color: #18d3ff;
+  background-color: #929ad1;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -319,14 +319,14 @@ a:focus {
 .service_section a {
   display: inline-block;
   padding: 12px 25px;
-  background-color: #023b48;
+  background-color: #82a1c2;
   border: 1px solid #023b48;
   color: #ffffff;
 }
 
 .service_section a:hover {
   background-color: transparent;
-  color: #023b48;
+  color: #82a1c2;
 }
 
 .gallery-section {
@@ -489,7 +489,7 @@ a:focus {
 }
 
 .info_section {
-  background-color: #0dc3ff;
+  background-color: #75b4c9;
 }
 
 .info_items {
